@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  background: #5781f5;
+}
+
+.Watch {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 36px;
+  margin-top: 100px;
+}
+
+.Watch__time {
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+}
+
+.Watch__buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.Watch__button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #f1f2f5;
+  cursor: pointer;
+  transition: background-color 0.3ms linear;
+}
+
+.Watch__button:hover {
+  color: #f1f2f5;
+  background-color: #84abfd;
+}
